@@ -138,6 +138,7 @@ return [
 
     'providers' => [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */
